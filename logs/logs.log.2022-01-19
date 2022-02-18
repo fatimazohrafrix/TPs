@@ -1,0 +1,6 @@
+2022-01-19 16:18:52  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3551a94
+2022-01-19 16:18:53  [ main:142 ] - [ DEBUG ]  Loaded 6 bean definitions from class path resource [spring.xml]
+2022-01-19 16:37:57  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3551a94
+2022-01-19 16:37:57  [ main:80 ] - [ DEBUG ]  Loaded 6 bean definitions from class path resource [spring.xml]
+2022-01-19 16:40:11  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3551a94
+2022-01-19 16:40:11  [ main:75 ] - [ DEBUG ]  Loaded 6 bean definitions from class path resource [spring.xml]

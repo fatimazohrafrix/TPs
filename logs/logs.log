@@ -1,0 +1,202 @@
+2022-02-18 11:46:53  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3551a94
+2022-02-18 11:46:53  [ main:265 ] - [ DEBUG ]  Loaded 6 bean definitions from class path resource [spring.xml]
+2022-02-18 11:49:50  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7ca48474
+2022-02-18 11:49:50  [ main:118 ] - [ DEBUG ]  Loaded 6 bean definitions from class path resource [spring.xml]
+2022-02-18 11:51:19  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59e84876
+2022-02-18 11:51:19  [ main:130 ] - [ DEBUG ]  Loaded 6 bean definitions from class path resource [spring.xml]
+2022-02-18 16:53:05  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2096442d
+2022-02-18 16:53:15  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2096442d
+2022-02-18 16:53:15  [ main:216 ] - [ INFO ]  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-18 16:53:15  [ main:236 ] - [ DEBUG ]  Scanning for JPA repositories in packages dao.
+2022-02-18 16:53:15  [ main:251 ] - [ INFO ]  Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2022-02-18 16:53:15  [ main:273 ] - [ DEBUG ]  Loaded 18 bean definitions from class path resource [spring.xml]
+2022-02-18 16:53:15  [ main:301 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-02-18 16:53:15  [ main:339 ] - [ DEBUG ]  Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-02-18 16:53:15  [ main:349 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-02-18 16:53:15  [ main:351 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-02-18 16:53:15  [ main:352 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-02-18 16:53:15  [ main:353 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-02-18 16:53:15  [ main:354 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-02-18 16:53:15  [ main:355 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-02-18 16:53:15  [ main:391 ] - [ DEBUG ]  Creating shared instance of singleton bean 'entityManagerFactory'
+2022-02-18 16:53:15  [ main:411 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'persistenceClient' of bean class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]: Bean property 'persistenceClient' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+2022-02-18 16:59:46  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61dc03ce
+2022-02-18 16:59:46  [ main:214 ] - [ INFO ]  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-18 16:59:46  [ main:233 ] - [ DEBUG ]  Scanning for JPA repositories in packages dao.
+2022-02-18 16:59:46  [ main:250 ] - [ INFO ]  Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2022-02-18 16:59:46  [ main:271 ] - [ DEBUG ]  Loaded 18 bean definitions from class path resource [spring.xml]
+2022-02-18 16:59:46  [ main:300 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-02-18 16:59:46  [ main:341 ] - [ DEBUG ]  Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-02-18 16:59:46  [ main:349 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-02-18 16:59:46  [ main:351 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-02-18 16:59:46  [ main:352 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-02-18 16:59:46  [ main:353 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-02-18 16:59:46  [ main:354 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-02-18 16:59:46  [ main:355 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-02-18 16:59:46  [ main:393 ] - [ DEBUG ]  Creating shared instance of singleton bean 'entityManagerFactory'
+2022-02-18 16:59:46  [ main:413 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'persistenceClient' of bean class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]: Bean property 'persistenceClient' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+2022-02-18 17:00:50  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61dc03ce
+2022-02-18 17:00:51  [ main:204 ] - [ INFO ]  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-18 17:00:51  [ main:220 ] - [ DEBUG ]  Scanning for JPA repositories in packages dao.
+2022-02-18 17:00:51  [ main:239 ] - [ INFO ]  Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2022-02-18 17:00:51  [ main:263 ] - [ DEBUG ]  Loaded 18 bean definitions from class path resource [spring.xml]
+2022-02-18 17:00:51  [ main:293 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-02-18 17:00:51  [ main:334 ] - [ DEBUG ]  Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-02-18 17:00:51  [ main:342 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-02-18 17:00:51  [ main:344 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-02-18 17:00:51  [ main:344 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-02-18 17:00:51  [ main:346 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-02-18 17:00:51  [ main:346 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-02-18 17:00:51  [ main:347 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-02-18 17:00:51  [ main:385 ] - [ DEBUG ]  Creating shared instance of singleton bean 'entityManagerFactory'
+2022-02-18 17:00:51  [ main:405 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'persistenceClient' of bean class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]: Bean property 'persistenceClient' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+2022-02-18 17:04:04  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61dc03ce
+2022-02-18 17:04:04  [ main:208 ] - [ INFO ]  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-18 17:04:04  [ main:230 ] - [ DEBUG ]  Scanning for JPA repositories in packages dao.
+2022-02-18 17:04:04  [ main:253 ] - [ INFO ]  Finished Spring Data repository scanning in 21 ms. Found 0 JPA repository interfaces.
+2022-02-18 17:04:04  [ main:279 ] - [ DEBUG ]  Loaded 18 bean definitions from class path resource [spring.xml]
+2022-02-18 17:04:04  [ main:310 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-02-18 17:04:04  [ main:359 ] - [ DEBUG ]  Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-02-18 17:04:04  [ main:367 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-02-18 17:04:04  [ main:370 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-02-18 17:04:04  [ main:370 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-02-18 17:04:04  [ main:372 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-02-18 17:04:04  [ main:372 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-02-18 17:04:04  [ main:373 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-02-18 17:04:04  [ main:410 ] - [ DEBUG ]  Creating shared instance of singleton bean 'entityManagerFactory'
+2022-02-18 17:04:04  [ main:433 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'persistenceClient' of bean class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]: Bean property 'persistenceClient' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+2022-02-18 17:04:09  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5c7fa833
+2022-02-18 17:04:09  [ main:224 ] - [ INFO ]  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-18 17:04:09  [ main:245 ] - [ DEBUG ]  Scanning for JPA repositories in packages dao.
+2022-02-18 17:04:09  [ main:265 ] - [ INFO ]  Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2022-02-18 17:04:09  [ main:288 ] - [ DEBUG ]  Loaded 18 bean definitions from class path resource [spring.xml]
+2022-02-18 17:04:09  [ main:311 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-02-18 17:04:10  [ main:354 ] - [ DEBUG ]  Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-02-18 17:04:10  [ main:362 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-02-18 17:04:10  [ main:365 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-02-18 17:04:10  [ main:365 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-02-18 17:04:10  [ main:366 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-02-18 17:04:10  [ main:367 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-02-18 17:04:10  [ main:368 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-02-18 17:04:10  [ main:405 ] - [ DEBUG ]  Creating shared instance of singleton bean 'entityManagerFactory'
+2022-02-18 17:04:10  [ main:424 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'persistenceClient' of bean class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]: Bean property 'persistenceClient' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+2022-02-18 17:04:18  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39fb3ab6
+2022-02-18 17:04:18  [ main:202 ] - [ INFO ]  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-18 17:04:18  [ main:224 ] - [ DEBUG ]  Scanning for JPA repositories in packages dao.
+2022-02-18 17:04:18  [ main:244 ] - [ INFO ]  Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2022-02-18 17:04:18  [ main:281 ] - [ DEBUG ]  Loaded 18 bean definitions from class path resource [spring.xml]
+2022-02-18 17:04:18  [ main:315 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-02-18 17:04:18  [ main:357 ] - [ DEBUG ]  Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-02-18 17:04:18  [ main:364 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-02-18 17:04:18  [ main:367 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-02-18 17:04:18  [ main:367 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-02-18 17:04:18  [ main:369 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-02-18 17:04:18  [ main:369 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-02-18 17:04:18  [ main:370 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-02-18 17:04:18  [ main:407 ] - [ DEBUG ]  Creating shared instance of singleton bean 'entityManagerFactory'
+2022-02-18 17:04:19  [ main:430 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'persistenceClient' of bean class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]: Bean property 'persistenceClient' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+2022-02-18 17:04:21  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61dc03ce
+2022-02-18 17:04:21  [ main:198 ] - [ INFO ]  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-18 17:04:21  [ main:216 ] - [ DEBUG ]  Scanning for JPA repositories in packages dao.
+2022-02-18 17:04:21  [ main:234 ] - [ INFO ]  Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2022-02-18 17:04:21  [ main:256 ] - [ DEBUG ]  Loaded 18 bean definitions from class path resource [spring.xml]
+2022-02-18 17:04:21  [ main:285 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-02-18 17:04:21  [ main:330 ] - [ DEBUG ]  Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-02-18 17:04:21  [ main:339 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-02-18 17:04:21  [ main:341 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-02-18 17:04:21  [ main:342 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-02-18 17:04:21  [ main:343 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-02-18 17:04:21  [ main:344 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-02-18 17:04:21  [ main:345 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-02-18 17:04:21  [ main:382 ] - [ DEBUG ]  Creating shared instance of singleton bean 'entityManagerFactory'
+2022-02-18 17:04:21  [ main:401 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'persistenceClient' of bean class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]: Bean property 'persistenceClient' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+2022-02-18 17:07:10  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61dc03ce
+2022-02-18 17:07:10  [ main:203 ] - [ INFO ]  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-18 17:07:10  [ main:221 ] - [ DEBUG ]  Scanning for JPA repositories in packages dao.
+2022-02-18 17:07:10  [ main:238 ] - [ INFO ]  Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2022-02-18 17:07:10  [ main:261 ] - [ DEBUG ]  Loaded 18 bean definitions from class path resource [spring.xml]
+2022-02-18 17:07:11  [ main:289 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-02-18 17:07:11  [ main:327 ] - [ DEBUG ]  Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-02-18 17:07:11  [ main:336 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-02-18 17:07:11  [ main:339 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-02-18 17:07:11  [ main:339 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-02-18 17:07:11  [ main:341 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-02-18 17:07:11  [ main:341 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-02-18 17:07:11  [ main:343 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-02-18 17:07:11  [ main:377 ] - [ DEBUG ]  Creating shared instance of singleton bean 'entityManagerFactory'
+2022-02-18 17:07:11  [ main:400 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring.xml]: Error setting property values; nested exception is org.springframework.beans.NotWritablePropertyException: Invalid property 'client' of bean class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]: Bean property 'client' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
+2022-02-18 17:10:22  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61dc03ce
+2022-02-18 17:10:22  [ main:195 ] - [ INFO ]  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-18 17:10:22  [ main:211 ] - [ DEBUG ]  Scanning for JPA repositories in packages dao.
+2022-02-18 17:10:22  [ main:227 ] - [ INFO ]  Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2022-02-18 17:10:22  [ main:248 ] - [ DEBUG ]  Loaded 18 bean definitions from class path resource [spring.xml]
+2022-02-18 17:10:22  [ main:275 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-02-18 17:10:22  [ main:314 ] - [ DEBUG ]  Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-02-18 17:10:22  [ main:323 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-02-18 17:10:22  [ main:325 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-02-18 17:10:22  [ main:325 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-02-18 17:10:22  [ main:327 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-02-18 17:10:22  [ main:327 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-02-18 17:10:22  [ main:328 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-02-18 17:10:22  [ main:366 ] - [ DEBUG ]  Creating shared instance of singleton bean 'entityManagerFactory'
+2022-02-18 17:10:23  [ main:389 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No persistence unit with name 'unit_person' found
+2022-02-18 17:50:50  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61dc03ce
+2022-02-18 17:50:50  [ main:193 ] - [ INFO ]  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-18 17:50:50  [ main:215 ] - [ DEBUG ]  Scanning for JPA repositories in packages dao.
+2022-02-18 17:50:50  [ main:232 ] - [ INFO ]  Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2022-02-18 17:50:50  [ main:259 ] - [ DEBUG ]  Loaded 18 bean definitions from class path resource [spring.xml]
+2022-02-18 17:50:50  [ main:287 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-02-18 17:50:50  [ main:327 ] - [ DEBUG ]  Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-02-18 17:50:50  [ main:335 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-02-18 17:50:50  [ main:337 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-02-18 17:50:50  [ main:338 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-02-18 17:50:50  [ main:339 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-02-18 17:50:50  [ main:340 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-02-18 17:50:50  [ main:341 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-02-18 17:50:50  [ main:382 ] - [ DEBUG ]  Creating shared instance of singleton bean 'entityManagerFactory'
+2022-02-18 17:50:50  [ main:406 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No persistence unit with name 'unit_person' found
+2022-02-18 17:51:41  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61dc03ce
+2022-02-18 17:51:41  [ main:196 ] - [ INFO ]  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-18 17:51:41  [ main:216 ] - [ DEBUG ]  Scanning for JPA repositories in packages dao.
+2022-02-18 17:51:41  [ main:234 ] - [ INFO ]  Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2022-02-18 17:51:41  [ main:258 ] - [ DEBUG ]  Loaded 18 bean definitions from class path resource [spring.xml]
+2022-02-18 17:51:41  [ main:287 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-02-18 17:51:41  [ main:341 ] - [ DEBUG ]  Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-02-18 17:51:41  [ main:351 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-02-18 17:51:41  [ main:354 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-02-18 17:51:41  [ main:354 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-02-18 17:51:41  [ main:356 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-02-18 17:51:41  [ main:357 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-02-18 17:51:41  [ main:358 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-02-18 17:51:41  [ main:399 ] - [ DEBUG ]  Creating shared instance of singleton bean 'entityManagerFactory'
+2022-02-18 17:51:41  [ main:423 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No persistence unit with name 'unit_person' found
+2022-02-18 18:15:40  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13c78c0b
+2022-02-18 18:15:40  [ main:211 ] - [ INFO ]  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-18 18:15:40  [ main:232 ] - [ DEBUG ]  Scanning for JPA repositories in packages dao.
+2022-02-18 18:15:40  [ main:249 ] - [ INFO ]  Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2022-02-18 18:15:40  [ main:273 ] - [ DEBUG ]  Loaded 18 bean definitions from class path resource [spring.xml]
+2022-02-18 18:15:40  [ main:298 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-02-18 18:15:40  [ main:342 ] - [ DEBUG ]  Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-02-18 18:15:40  [ main:351 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-02-18 18:15:40  [ main:354 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-02-18 18:15:40  [ main:354 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-02-18 18:15:40  [ main:355 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-02-18 18:15:40  [ main:356 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-02-18 18:15:40  [ main:357 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-02-18 18:15:40  [ main:394 ] - [ DEBUG ]  Creating shared instance of singleton bean 'entityManagerFactory'
+2022-02-18 18:15:40  [ main:422 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No persistence unit with name 'unit_person' found
+2022-02-18 18:19:36  [ main:0 ] - [ DEBUG ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13c78c0b
+2022-02-18 18:19:36  [ main:213 ] - [ INFO ]  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-18 18:19:36  [ main:234 ] - [ DEBUG ]  Scanning for JPA repositories in packages dao.
+2022-02-18 18:19:36  [ main:251 ] - [ INFO ]  Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2022-02-18 18:19:36  [ main:275 ] - [ DEBUG ]  Loaded 18 bean definitions from class path resource [spring.xml]
+2022-02-18 18:19:36  [ main:305 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-02-18 18:19:36  [ main:343 ] - [ DEBUG ]  Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-02-18 18:19:36  [ main:350 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-02-18 18:19:36  [ main:352 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-02-18 18:19:36  [ main:353 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-02-18 18:19:36  [ main:354 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-02-18 18:19:36  [ main:354 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-02-18 18:19:36  [ main:356 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-02-18 18:19:36  [ main:392 ] - [ DEBUG ]  Creating shared instance of singleton bean 'entityManagerFactory'
+2022-02-18 18:19:36  [ main:412 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No persistence unit with name 'unit_person' found
