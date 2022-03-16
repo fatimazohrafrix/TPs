@@ -35,9 +35,11 @@ public class ClientController {
 
     @PostMapping(value = "/add-client")
     public String addClient(Model model, @ModelAttribute("client") Client client) {
-        restTemplate.postForObject(apiUrl+"/client/create/", client, Client.class);
-        return "redirect:/client";
+        restTemplate.postForObject(apiUrl + "/client/create/", client, Client.class);
+               return "redirect:/client";
     }
+
+
     @GetMapping(value = {"/delete-client/{id}"})
     public String deleteClientById(Model model, @PathVariable long id) {
         restTemplate.delete(apiUrl+"/client/"+id);
